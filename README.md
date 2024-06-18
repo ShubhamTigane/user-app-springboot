@@ -23,13 +23,13 @@ POST /api/user/register
 
 #### CURL Command 
 ```http
-curl -X POST "http://localhost:8080/api/user/register" \
--H "Content-Type: application/json" \
--d '{
+ curl -X POST "http://localhost:8080/api/user/register" \
+ -H "Content-Type: application/json" \
+ -d '{
       "username": "virat_kohli",
       "email": "virat.kohli@example.com",
       "password": "password123"
-  }'
+     }'
 ```
 
 #### Fetch User Details
@@ -40,5 +40,5 @@ GET /api/user/fetch?username=virat_kohli
 
 #### CURL Command
 ```http
- curl -X GET "http://localhost:8080/api/user/fetch?username=virat_kohli"
+curl -X GET "http://localhost:8080/api/user/fetch?username=virat_kohli"
 ```
