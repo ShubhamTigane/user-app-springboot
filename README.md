@@ -4,19 +4,21 @@
 This is a Spring Boot application for user registration, including RESTful APIs for user registration and fetching user details.
 
 
-
 ## Prerequisites
-- Java 11 or higher
-- Maven
-- MySQL or another compatible database
-
-
+    - Java 11 or higher
+    - Maven
+    - MySQL or another compatible database
+## Setup  Instructions
+### Clone the repository
+ ```bash
+ git clone https://github.com/ShubhamTigane/user-app-springboot.git
+ ```
 ## API Reference
 
 #### Register a User
 
 ```http
-  POST  /api/user/register
+  POST /api/user/register
 ```
 
 #### CURL Command 
@@ -35,15 +37,9 @@ This is a Spring Boot application for user registration, including RESTful APIs 
 ```http
  GET /api/user/fetch?username=virat_kohli
 ```
+
 #### CURL Command
 ```http
  curl -X GET "http://localhost:8080/api/user/fetch?username=virat_kohli"
 
 ```
-
-
-## Setup Instructions
-
-### Clone the Repository
-```bash
-git clone https://github.com/ShubhamTigane/user-app-springboot.git
