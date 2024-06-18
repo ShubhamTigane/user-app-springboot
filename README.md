@@ -40,5 +40,6 @@ GET /api/user/fetch?username=virat_kohli
 
 #### CURL Command
 ```http
-curl -X GET "http://localhost:8080/api/user/fetch?username=virat_kohli"
+ curl -X GET "http://localhost:8080/api/user/fetch?username=virat_kohli"
+
 ```
