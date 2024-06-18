@@ -16,7 +16,7 @@ This is a Spring Boot application for user registration, including RESTful APIs 
 #### Register a User
 
 ```http
-  POST /api/user/register
+  POST  /api/user/register
 ```
 
 #### CURL Command 
